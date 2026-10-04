@@ -1,0 +1,1518 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --c1:rgb(236, 122, 106);
+    
+}
+:root{
+    --c2: rgb(204, 192, 192);
+}
+:root{
+    --c3: brown;
+}
+button{
+    border: none;
+}
+
+header{
+    box-shadow:4px 4px 15px rgb(226, 213, 209);
+}
+body{
+    direction: rtl;
+    background-color: white;
+    
+
+}
+.img1 img{
+    height:100%;
+    width: 100%;
+}
+.logo{
+    height:7%;
+    width: 7%;
+    align-items: center;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4%;
+    margin:2%;
+}
+.burger1{
+    padding-top: 7px;
+    cursor: pointer;
+    
+}
+
+
+.nav2{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.nav2 div{
+    display: flex;
+    flex-direction: row;
+    margin: 0 15px;
+   
+}
+
+
+.city {
+    display: inline-block ;
+    color: rgb(79, 75, 75);
+    cursor: pointer;
+}
+
+.city div{
+    position: relative;
+    bottom: 23px;
+    right: 64px;
+}
+.gp{
+    display: block;
+    color: rgb(78, 77, 77);
+    cursor: pointer;
+}
+.sign{
+    display: block;
+    color: rgb(74, 73, 73);
+    cursor: pointer;
+}
+.shop{
+    display: block;
+    color: rgb(92, 90, 90);
+    cursor: pointer;
+}
+
+.nav2 svg{
+    color: var(--c1);
+    display: flex;
+    margin-right: 50%;
+}
+.nav2 a{
+    text-decoration: none;
+}
+.nav2 span{
+    transition: all 0.3 ease;
+}
+.nav2 span:hover{
+    font-size: 15px;
+    color: var(--c3);
+}
+.butt1{
+    color: var(--c1);
+     background-color:  rgb(247, 244, 242);
+    border: 2px  solid var(--c1);
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.butt1:hover{
+    background-color: rgb(246, 205, 188);
+}
+.formm1{
+    display: flex;
+   align-items: center;
+   margin-left: 16%;
+   cursor: pointer;
+   
+   
+}
+.form1 svg{
+    display: flex;
+    
+}
+.zarebin svg{
+   position: relative;
+   top: 10px;
+   right: 10px;
+}
+.form1 input{
+    padding: 5% 65%;
+    border-radius: 8px;
+    background-color:  rgb(247, 244, 242);
+    position: relative;
+    bottom: 18px;
+    z-index: -1;
+    border-color: rgb(153, 152, 152);
+}
+.formm1 input{
+    border-color: rgb(122, 121, 121);
+}
+input::placeholder{
+    font-size: 15px;
+}
+/* -----resform1-----------------*/
+.form2{
+    cursor: pointer;
+}
+.zarebin svg{
+   position: relative;
+   top: 10px;
+   right: 10px;
+}
+.form2 svg{
+    display: flex;
+    
+}
+.form2 input{
+    padding: 3% 40%;
+    
+    border-radius: 8px;
+    background-color:  rgb(250, 229, 221);
+    position: relative;
+     bottom: 18px;
+    z-index: -1;
+    border-color: rgb(153, 152, 152);
+}
+/* -------------section1-------- */
+.story1{
+    font-size: 12px;
+    display: flex;
+    padding: 4px 20px;
+
+}
+
+
+.sec1{
+    display: flex;
+    flex-direction: row;
+    padding: 0 3%;
+    
+}
+
+.sec1 img{
+    border-radius: 50%;
+    border: 2px rgb(97, 144, 216) solid;
+    height:60px;
+    width: 60px;
+    margin: 0 15px;
+
+}
+.sectex{
+    color: rgb(121, 119, 119);
+    display: block;
+    padding-bottom: 9%;
+    padding-top: 5%;
+    transition: all 0.3 ease;
+    
+    
+}
+.sectex1{
+    color: var(--c1);
+    display: flex;
+    text-align: right;
+    transition: all 0.3 ease;
+
+}
+.sectex1:hover{
+    color: var(--c3);
+    font-size: 15px;
+  
+}
+.secti1 svg:hover{
+    color: var(--c3);
+    font-size: 15px;
+  
+}
+.sectex:hover{
+    color: var(--c3);
+    font-size: 15px;
+  
+}
+
+.asec svg{
+    color:var(--c1);
+
+}
+.secti1{
+    position: relative;
+    bottom:25%;
+    left:45%;
+    transition: all 0.3 ease;
+    
+}
+
+
+.asec a{
+    text-decoration: none;
+    
+}
+
+/* ----------------res */
+.sec1res{
+    display: flex;
+    flex-direction: row;
+    padding: 0 3%;
+}
+.sec1res img{
+    border-radius: 50%;
+    border: 2px rgb(97, 144, 216) solid;
+    height:60px;
+    width: 60px;
+    margin: 0 15px;
+}
+.sectexres1{
+    display: flex;
+    font-size: 12px;
+    color: rgb(109, 109, 109);
+    padding-top: 2%;
+}
+.sectexres1 svg{
+    padding:4px;
+    color: rgb(248, 153, 118) !important;
+}
+/* ---------------------section2--------------- */
+.container{
+    max-width: 2100px;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+
+   
+/* ---------------------section3---------------- */
+.secc3 img:hover{
+    box-shadow: 0 0 20px rgb(108, 103, 103);
+}
+.secc3{
+    margin: 3% 0;
+    
+}
+.secc3 img{
+    padding: 10px;
+    background-color:  rgb(234, 217, 211);
+    height:4%;
+    width:4%;
+    margin: 0 2%;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid var(--c1);
+   
+    
+    
+}
+.secc3 a{
+   padding-left:10px ;
+   
+   
+}
+/* -----res3---- */
+.seccres3{
+    margin: 3% 0;
+    
+}
+
+.seccres3 img{
+    padding: 10px;
+    background-color: rgb(234, 217, 211);
+    height:4%;
+    width:4%;
+    margin: 0 2%;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+   
+}
+.seccres3 img:hover{
+    box-shadow: 0 0 20px rgb(108, 103, 103);
+}
+.seccres3 a{
+   padding-left:10px ;
+   
+   
+}
+/* -----------nafahmidm----------- */
+
+.imgsec3 img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.imgsec3{
+    padding-top: 5%;
+    padding-left: 5%;
+
+}
+
+/* -----------section 3-1----- */
+.all5 a{
+    color: var(--c1);
+    position: absolute;
+    left: 5%;
+    padding-top: 2%;
+    text-decoration: none;
+    
+}
+.all a{
+    color:var(--c1);
+    position: absolute;
+    left: 5%;
+    padding-top: 2%;
+    text-decoration: none;
+    
+}
+.all a:hover{
+    color: var(--c3);
+    font-size: 15px;
+}
+.all5 a:hover{
+    color: var(--c3);
+    font-size: 15px;
+}
+.allcard{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 3%;
+    gap: 2%;
+    border: 1px solid var(--c1);
+    box-shadow: 0 0 20px var(--c2);
+    border-radius: 8px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.card{
+    width:20%;
+    background-color: white;
+    border-radius: 10px;
+     overflow: hidden;
+     padding: 1% 0;
+     background-color: rgb(242, 225, 217);
+     border: 1px solid var(--c1);
+    
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding:  2%2%;
+   
+}
+.card:hover{
+    box-shadow: 0 0 15px ;
+    width: 22%;
+}
+.card img{
+    width:100%;
+}
+
+.content a{
+    text-align: right;
+    color: black;
+    text-decoration: none;
+
+}
+.content p{
+    margin:4% 6%;
+}
+.content span{
+    padding-left: 3%;
+    
+    
+}
+.star{
+    color: gray;
+    font-size: 12px;
+    
+}
+.core{
+    font-weight: 700;
+    color: rgb(59, 59, 59);
+}
+.star svg{
+    color: rgb(228, 162, 48);
+    padding-left: 4px;
+}
+.adress{
+    color: rgb(119, 116, 116);
+    font-size:11px;
+}
+.adress svg{
+    padding-left:4px ;
+}
+.name:hover{
+    color:var(--c3);
+
+}
+.gheymat{
+    
+    font-weight: 700;
+}
+.toman{
+    font-size: 13px;
+    color: rgb(113, 113, 113);
+    padding: 0 4px;
+}
+.anbar{
+    position: relative;
+    bottom: 15%;
+    
+    
+}
+.anbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* ------------section3-1-1 */
+.sec3-1-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+
+}
+.flesh2 button{
+    border-radius: 8px;
+    border: 1px solid gainsboro;
+    box-shadow: 0 0 5px rgb(188, 185, 185) ;
+}
+    
+.flesh2{
+    padding-top: 1%;
+}
+ 
+.borderleft{
+    border-left: 1px solid;
+    padding-left: 15px;
+}
+.borderleft2{
+    border-left: 1px solid white;
+    padding-left: 15px;
+}
+.section-3-1-1 a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column-reverse;
+    transition: all 0.3s ease;
+
+}
+.section-3-1-1 a:hover{
+    color: brown;
+    font-size: 15px;
+}
+.section-3-1-1 svg{
+    color:var(--c1);
+    padding:15px;
+  
+}
+/* ----------res4----------- */
+.sectionres-3-1-1 a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column-reverse;
+    transition: all 0.3s ease;
+}
+.sectionres-3-1-1 a:hover{
+    color: brown;
+    font-size: 15px;
+}
+.sectionres-3-1-1 svg{
+    color: var(--c1);
+    padding:15px;
+  
+}
+
+.secres3-1-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+/* ---section3-2 */
+.section3-2{
+    
+    display: flex;
+    flex-direction: row;
+    padding:2% 5%;
+    gap: 4%;
+    width: 100;
+    
+}
+.section3-2 div{
+    box-shadow: 5px 7px 10px ;
+}
+.section3-2 img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+/* ---section3-2-3 */
+
+.eye{
+    position: relative;
+    bottom:  185px;
+    right: 80px;
+    color: black;
+}
+.live3 svg{
+    color: black;
+    position: relative;
+    bottom:160px;
+    right:100px;
+}
+.live3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3%;
+    margin: 2% 0;
+    
+}
+.live3 a{
+    text-decoration: none;
+   
+}
+.live3 div{
+   padding:12% 8%;
+   border-radius: 10px;
+   border: 1px solid var(--c1);
+   
+}
+
+.live4{
+    background-image: url(../images/1iinqNScfJgzDuYjSf55DYO1QopHumPVz2eodq8p1BstmvKplZ.mp4_thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%100%;
+}
+.live5{
+    background-image: url(../images/FgwdZAi8wSokuyGcs1DwgqZgNOZ5aqSnKbAfL7rKWU1njhyTMf.mp4_thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%100%;
+}
+.live6{
+    background-image: url(../images/wqEkWAuaItisD5fYjpiVVQkWUJRNqZJ5fiI8cmUqOsnAhNdadX.mp4_thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%100%;
+}
+.live7{
+    background-image: url(../images/UZDTSjtAjoPvwwN2vylmJZWqfcEyemzu8cVXG7WNJ20XF6BclQ.mp4_thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%100%;
+}
+.live8{
+    background-image: url(../images/E5AYWbg966LR601XhkIovPGvfdqHZFUHdFUljEpvuBoqt3qeO7.mp4_thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%100%;
+}
+/* -----------section4-2  ---- */
+
+.section4-2 img{
+    width: 100%;
+    
+   
+}
+.section4-2{
+     display: flex;
+    flex-direction: row;
+}
+/* --res8-- */
+.end div{
+    padding: 0 5%;
+    margin: 2% 0;
+}
+.end img{
+    width: 100%;
+    border-radius: 8px;
+
+}
+/* ----------------------footer------------- */
+footer span:hover{
+    color: var(--c3);
+    font-size: 15px;
+}
+footer{
+    padding: 0 5%;
+}
+.foot1{
+    background-color: rgba(235, 231, 231, 0.452);
+    padding: 30px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--c1);
+     
+}
+.foot1 span{
+    margin: 0 5%;
+
+}
+.foot1 svg{
+    color:var(--c1);
+}
+/* ----res5--- */
+.footres1{
+    background-color: rgba(235, 231, 231, 0.452);
+    padding: 10px 14px;
+    border-radius: 6px;
+   
+}
+.footres1 svg{
+    color: var(--c1);
+}
+.footres1 span{
+    margin: 0 5%;
+
+}
+.footres1 p:hover{
+     color: var(--c3);
+    font-size: 15px;
+}
+/* -- */
+.foot2{
+    padding: 5% 0;
+}
+.foot2 a{
+    text-decoration: none;
+    color: rgb(63, 62, 62);
+}
+
+
+.foot2{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+.foot2 span{
+    margin: 8% 0;
+}
+.foot3 span{
+    display: flex;
+    flex-direction: column;
+}
+.foot4 span{
+    display: flex;
+    flex-direction: column;
+
+}
+.foot5 span{
+     display: flex;
+    flex-direction: column;
+
+}
+.foot6 span{
+    display: flex;
+    
+
+}
+.foot6 svg{
+    padding: 3% 4%;
+}
+.foot7 a{
+    color: rgb(136, 99, 85);
+}
+.foot7 span{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer10{
+    transition: all 0.3 ease;
+    
+}
+.footer10:hover{
+    background-color:rgba(251, 221, 218, 0.568) ;
+}
+.footer9{
+    color: black;
+    font-weight: 700;
+}
+.logo2 img{
+    width: 70%;
+    height: 70%;
+    
+}
+.foot7 div{
+   border: 1px solid var(--c1);
+    box-shadow: 0 0 5px;
+    border-radius: 4px;
+    margin: 10% 0;
+}
+.footend{
+    display: flex;
+    flex-direction: row;
+}
+.footend h6{
+    text-align: right;
+}
+.footend p{
+    text-align: justify;
+    font-size: 14px;
+    color: rgb(104, 101, 101);
+}
+.footend2 button{
+    background-color:var(--c1);
+    color: white;
+    padding: 13px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.footend2 p{
+    font-weight: 700;
+    font-size: 16px;
+    
+    text-align: left;
+}
+.footend2 input{
+    padding: 2% 2%;
+}
+.footend3 img{
+    width:12%;
+    border: 2px black solid;
+    padding: 3px;
+    margin:2% 2%;
+}
+/* ------------------------------------------------ */
+/* ---------------------1500px---------- */
+@media only screen and (max-width:1500px) {
+    .form2{
+        display: none;
+    }
+    
+    
+    .foot1{
+        display: none;
+    }
+    .alloff{
+        display: none;
+    }
+    
+    .sec1res{
+        display: none;
+    }
+    .seccres3{
+        display: none;
+    }
+    
+    .sectionres-3-1-1{
+    display: none;
+    
+  }
+  
+  .footres1{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .footres1 div{
+    margin: 0 5%;
+  }
+  .footres1 svg{
+    padding-left: 50%;
+  }
+}
+
+/* -----------1430px-------------------- */
+@media only screen and (max-width:1430px) {
+    .end div{
+        padding-right: 20%;
+       
+
+    }
+    body{
+        padding-left: 20%;
+    }
+    header{
+         box-shadow:1px  1px  1px rgb(226, 213, 209);
+    }
+    .logo{
+        display: none;
+    }
+    .nav1{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .ghorfeh{
+        display: none;
+    }
+    .formm1 input{
+        background-color: #fae4df;
+    }
+     .burger1{
+      display: none;
+    }
+   
+    .nav2{
+        display: none;
+    }
+    /* -----section1---- */
+    
+    .sec1{
+        display: none;
+    }
+    .sec1res{
+        display: flex;
+        justify-content: center;
+        padding-right: 15%;
+    }
+    .sectex{
+        font-size: 10px;
+    }
+    .sectex1{
+        font-size: 10px;
+    }
+    .sec1res img{
+    height:45px;
+    width: 45px;
+    margin: 0 10px;
+   }
+/* ----------section 2 */
+    .container{
+    max-width: 900px;
+    padding-right:  18%;
+     }
+/* ---sec3 */
+    .section3-2 {
+        padding-right: 20%;
+       
+   }
+    .secc3{
+ 
+    display: none;
+   }
+   .seccres3 img{
+    padding: 15px;
+    height:6%;
+    width:6%;
+    margin: 0 2%;
+    
+   }
+   
+/* -----------section3-1-1 res */
+  .seccres3{
+    display: block;
+     padding-left:12%;
+  }
+  .seccres3 img{
+    padding: 8px;
+    height:5%;
+    width:5%;
+  }
+   .section-3-1-1{
+    display: none;
+  }
+   
+
+   .sectionres-3-1-1{
+    display: block;
+    padding:0 13%;
+    font-size: 12px;
+    
+   }
+   .secres3-1-1{
+   
+   padding-right: 20%;
+
+
+  }
+/* -----------cards */
+
+  .allcard{
+    padding: 5% 3%;
+    gap: 3%;
+}
+.content p{
+    font-size: 8px;
+}
+.content span{
+    font-size: 8px;
+}
+.card{
+    width:30%;
+    margin: 0 auto;
+
+}
+  .cards{
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+    
+}
+  .anbar{
+    display: none;
+}
+  .all a{
+    
+    position: absolute;
+    left: 5%;
+    padding-top: 2%;
+    text-decoration: none;
+}
+  .all{
+    font-size:10px;
+    display: flex;
+    justify-content: left;
+}
+  
+  .all5 {
+    display: none;
+}
+   .all{
+    display: none;
+}
+
+  .live3{
+    display: none;
+  }
+/* ----footer-- */
+.foot1{
+    display: none;
+}
+.footend1 p{
+    font-size: 10px;
+   
+}
+.footend2 button{
+    padding: 5px 15px;
+  }
+ footer{
+    padding-right: 20%;
+   }
+ .foot2 a{
+    font-size: 14px;
+   }
+  
+  .res7{
+    display: none;
+  }
+  .foot4{
+        display: none;
+  }
+  .foot5{
+     display: none;
+  }
+  .footer9{
+    font-size: 14px;
+  }
+  .footres1 div{
+    margin: 0 2%;
+    
+  }
+  .footres1 svg{
+    font-size: 10px;
+  }
+  .footres1 p{
+    font-size: 10px;
+  }
+    
+  }
+  
+/* ------1000px----- */
+@media only screen and (max-width:1000px){
+    .seccres3 img{
+    height:7%;
+    width:7%;
+    }
+    
+    .sectionres-3-1-1{
+    
+    padding:0 12%;
+    font-size: 10px;
+    
+   }
+   .logo2 img{
+    width: 40%;
+    height: 40%;
+    
+  }
+  .footend2 input{
+    padding: 1% 1%;
+   
+  }
+    .foot2 a{
+        font-size: 12px;
+    }
+    .footer9{
+        font-size: 14px;
+    }
+}
+/* -----------900px---------------------------- */
+@media only screen and (max-width:900px){
+    input::placeholder{
+    font-size: 12px;
+}
+    .form2{
+        display: block;
+    }
+    .formm1{
+        display: none;
+    }
+    
+    
+    body{
+        color: rgb(101, 81, 76);
+        padding-left: 20%;
+    }
+    
+    
+    .logo{
+        display: none;
+    }
+    /* --------section1-------- */
+    .sec1res{
+        
+        padding-right: 25%;
+    }
+
+    .sec1res img{
+       margin: 0 6px;
+   }
+   /* ----------section 2 */
+   .container{
+    max-width: 700px;
+   
+    padding-right:  20%;
+  }
+/* -----sec3--- */
+
+   .section3-2 {
+        padding-right: 20%;
+       
+   }
+   .flesh2 a{
+    padding: 1px 4px;
+   }
+   .seccres3 img{
+    padding: 8px;
+    height:7%;
+    width:7%;
+    
+    }
+   .seccres3{
+        display: block;
+        padding-left:8%;
+    }
+    .secres3-1-1 svg{
+    font-size: 10px;
+    
+   }
+  .section-3-1-1{
+        display: none;
+    }
+  
+   .sectionres-3-1-1{
+    padding:0 10%;
+    font-size: 8px;
+   }
+   
+   .secres3-1-1{
+   padding-right: 15%;
+
+  }
+
+/* -------cards---- */
+  .all{
+    display: none;
+  }
+  .alloff{
+    color: var(--c1);
+    font-size: 10px;
+    direction: ltr;
+  }
+  .allcard{
+   
+    padding: 2% 6%;
+    gap: 2%;
+    padding-left: 7%;
+  }
+  .card{
+    width:45%;
+    margin: 0 auto;
+
+  }
+  .cards{
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+    
+  }
+  .anbar{
+    display: none;
+  }
+  
+  
+  .all5 {
+    display: none;
+   }
+   .all a:hover{
+    font-size: 7px;
+}
+
+/* --footer-- */
+.footer9{
+    font-size: 12px !important;
+}
+footer{
+    padding-right: 20%;
+}
+.foot2 a{
+    font-size: 10px;
+}
+
+ 
+ .footres1 span{
+    padding: 0 8%;
+  }
+ .foot4{
+    display: none;
+  }
+ .foot5{
+    display: none;
+  }
+ .footend2 button{
+    
+    padding: 5px 15px;
+    
+  }
+
+  .foot7 a{
+    padding: 0 5%;
+  }
+  .footres1 div{
+    margin: 0 2%;
+  }
+  .footres1 p{
+    font-size: 8px;
+  }
+}
+
+/* ----800px-------------------- */
+@media only screen  and (max-width:800px){
+.foot7{
+    display: none;
+}
+   
+.foot1{
+    display: none;
+ }
+.sectionres-3-1-1{
+    padding: 3%;
+   }
+.sectionres-3-1-1{
+    padding:0 6%;
+    font-size: 8px;
+    
+   }
+   .footres1 div{
+    margin: 0 2%;
+  }
+  .footres1 p{
+    font-size: 7px;
+  }
+  h6{
+    font-size:15px;
+  }
+  .footer9{
+    font-size: 10px !important;
+}
+}
+/* ------700px------- */
+@media only screen and (max-width:700px){
+    
+
+.allcard{
+    display: flex;
+    flex-direction: column;
+    }
+    .res2{
+        display: none;
+    }
+
+ }  
+/* -----600px---------------------- */
+@media only screen and (max-width:600px) {
+    input::placeholder{
+    font-size: 10px;
+}
+    .form2 input{
+    padding: 2% 20%;
+    }
+    .img1{
+    padding-right:10%;
+   }
+   
+   .seccres3{
+        padding-left:5%;
+    }
+    .seccres3 img{
+    height:8%;
+    width:8%;
+    }
+
+    .sectex{
+        font-size: 8px;
+    }
+    .sectex1{
+         font-size: 8px;
+    }
+    .secti1{
+        display: none;
+    }
+    .section-3-1-1{
+        display: none;
+    }
+   
+    .sectionres-3-1-1{
+        font-size: 6px;
+        padding: 0 10%;
+   }
+   .secres3-1-1 svg{
+    font-size: 10px;
+   
+   }
+   
+   .secres3-1-1{
+    padding-right: 10%;
+   }
+   .sec1res{
+        padding-right: 25%;
+    }
+
+    .sec1res img{
+        margin: 0 6px;
+        height:35px;
+        width: 35px;
+   }
+   /* ---card--- */
+   .content p{
+    font-size: 8px;
+  }
+  .content span{
+    font-size: 5px;
+  }
+   
+  .allcard{
+    padding:5%  ;
+    gap: 2%;
+    padding-left: 7%;
+  }
+  .card{
+    width:40%;
+    margin: 0 auto;
+
+  }
+  .cards{
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+    
+  }
+  
+  
+  /* ----footer----- */
+ 
+.footres1 span{
+    padding: 0 5%;
+ }
+.foot4{
+    display: none;
+}
+    
+.foot5{
+    display: none;
+ }
+.footer9 {
+    font-size:8px;
+ }
+.foot3 a{
+    font-size: 7px;
+}
+     
+.foot6 a{
+     font-size:7px;
+     color: rgb(115, 85, 73);
+ }
+.foot7{
+     display: none;
+ }
+.footend1 p{
+    font-size: 8px;
+    font-weight: 700;
+}
+.footend2 button{
+    
+    padding: 3px 10px;
+    
+ }
+.footend2 input{
+    width: 80%;
+    height: 20%;
+   
+    
+ }
+.res7{
+    display: none;
+}
+ .footres1 div{
+    margin: 0 2%;
+  }
+  .footres1 p{
+    font-size: 5px;
+  }
+  h6{
+    font-size:10px;
+  }
+}
+/* --------550px------- */
+@media only screen and (max-width:550px){
+    .sectexres1{
+    font-size: 8px;
+    }
+    
+
+    .sec1res img{
+        margin: 0 5px;
+        height:30px;
+        width: 30px;
+   }
+}
+
+
+/* -----500px-- */
+@media only screen and (max-width:500px){
+   .footres1 p{
+    font-size: 4px;
+  }
+  .foot3 a{
+    font-size:6px ;
+  }
+  .foot6 a{
+    font-size: 6px;
+  }
+  .footend2 button{
+    
+    padding: 2px 8px;
+    
+ }
+}
+/* -----450px---------- */
+@media only screen and (max-width:550px){
+    .sectexres1{
+    font-size: 7px;
+    }
+    
+
+    .sec1res img{
+        margin: 0 4px;
+        height:30px;
+        width: 30px;
+   }
+}
+
+/* ----400px-- */
+@media only screen and (max-width:400px) {
+    .footend2 button{
+    
+    padding: 2px 5px;
+    
+ }
+    .foot3{
+        display: none ;
+    }
+    .form2 input{
+    padding: 1% 15%;
+    }
+    .flesh2{
+        width:40px;
+        height: 40px;
+   }
+    
+   .flesh2{
+    padding-top: 1%;
+   }
+    .sectionres-3-1-1{
+    display: block;
+    padding:0 5%;
+    font-size: 6px;
+    
+   }
+   .zarebin svg{
+   top: 5px;
+   font-size: 12px;
+   }
+ 
+   .seccres3{
+    padding-right: 15%;
+    display: block;
+   }
+   .seccres3 img{
+    height:15%;
+    width:15%;
+    
+   }
+    .sectexres1{
+    font-size: 6px;
+    }
+    .sectexres1 p{
+        padding-top: 3%;
+    }
+    .sec1res img{
+        margin: 0 3px;
+        height:25px;
+        width: 25px;
+   }
+   
+   
+    .foot7{
+        display: none;
+    }
+    .footres1 p{
+    font-size: 4px;
+  }
+  .seccres3{
+        padding-left:3%;
+    }
+    .seccres3 img{
+    height:10%;
+    width:10%;
+    }
+}
+/* ------350px--- */
+@media only screen and (max-width:350px) {
+    .content p{
+        font-size: 6px;
+    }
+    .flesh2{
+        width:30px;
+        height: 30px;
+   }
+   .sectexres1{
+    font-size: 7px;
+    }
+    .seccres3{
+        display: none;
+    }
+    .flesh2 button{
+    box-shadow: none;
+    border: none;
+    background-color: white;
+}
+.sectexres1 svg{
+    padding-bottom:20px;
+    
+}    
+.flesh2 svg{
+    padding-left: ;
+   
+}
+}
